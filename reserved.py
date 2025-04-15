@@ -130,16 +130,15 @@ def gui():
 
 # Főprogram belépési pontja
 if __name__ == "__main__":
-    os.makedirs(DATA_DIR, exist_ok=True)  # Data mappa létrehozása, ha nem létezik
-    
-    # Légitársaság nevének fájlba írása
+    os.makedirs(DATA_DIR, exist_ok=True)
+
     with open(LEGITARSASAG_FILE, 'w') as f:
-        f.write("PythonAir")
+        f.write("RadukaAir")
 
-    # Légitársaság példányosítása
-    airline = LegiTarsasag("PythonAir")
+    airline = LegiTarsasag("RadukaAir")
+    print("Program elindult")
+    print(f"Betöltött járatok száma: {len(airline.jaratok)}")
 
-    # Alapértelmezett járatok betöltése, ha még nincsenek mentve
     if not airline.jaratok:
         airline.jaratok = [
             Jarat("HUN123", "Budapest", 15000, "Belfoldi"),
@@ -148,5 +147,5 @@ if __name__ == "__main__":
         ]
         airline.save_data()
 
-    # GUI elindítása
+    print("GUI indul...")
     gui()
