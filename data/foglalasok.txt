@@ -1,6 +1,0 @@
-Raduka Norbert,HUN123
-Gipsz Jakab,INT789
-Mix Elek,HUN456
-Tóth Ádám,HUN123
-Szabó Annamária,INT789
-HHJNUZ,HUN456

@@ -1,0 +1,26 @@
+[
+    {
+        "utas_nev": "Raduka Norbert",
+        "jaratszam": "HUN123"
+    },
+    {
+        "utas_nev": "Gipsz Jakab",
+        "jaratszam": "INT789"
+    },
+    {
+        "utas_nev": "Mix Elek",
+        "jaratszam": "HUN456"
+    },
+    {
+        "utas_nev": "T\u00f3th \u00c1d\u00e1m",
+        "jaratszam": "HUN123"
+    },
+    {
+        "utas_nev": "Szab\u00f3 Annam\u00e1ria",
+        "jaratszam": "INT789"
+    },
+    {
+        "utas_nev": "HHJNUZ",
+        "jaratszam": "HUN456"
+    }
+]

@@ -1,3 +1,0 @@
-Belfoldi,HUN123,Budapest,15000
-Belfoldi,HUN456,Debrecen,12000
-Nemzetkozi,INT789,Berlin,60000

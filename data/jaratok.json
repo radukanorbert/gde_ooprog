@@ -1,0 +1,20 @@
+[
+    {
+        "tipus": "Belfoldi",
+        "jaratszam": "HUN123",
+        "celallomas": "Budapest",
+        "jegyar": 15000
+    },
+    {
+        "tipus": "Belfoldi",
+        "jaratszam": "HUN456",
+        "celallomas": "Debrecen",
+        "jegyar": 12000
+    },
+    {
+        "tipus": "Nemzetkozi",
+        "jaratszam": "INT789",
+        "celallomas": "Berlin",
+        "jegyar": 60000
+    }
+]
